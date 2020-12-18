@@ -1,0 +1,49 @@
+{
+  "name": "@toggled-apps/react-native-product-carousel",
+  "version": "1.0.0",
+  "description": "Beautifully animated product carousel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toggled-apps/react-native-product-carousel.git"
+  },
+  "keywords": [
+    "carousel",
+    "App",
+    "ios",
+    "android",
+    "react-component",
+    "react-native",
+    "slider",
+    "product"
+  ],
+  "author": "Toggled Apps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toggled-apps/react-native-product-carousel/issues"
+  },
+  "homepage": "https://github.com/toggled-apps/react-native-product-carousel",
+  "peerDependencies": {
+    "react": "17.0.1",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-reanimated": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.19",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.40",
+    "@types/react-test-renderer": "^17.0.0",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^2.0.0"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
