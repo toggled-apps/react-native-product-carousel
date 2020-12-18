@@ -1,6 +1,6 @@
-# React Native Dot Intro
+# React Native Product Carousel
 
-This react native module is intended to provide a beautifully animated product carousel to present different picture of your product plus an expandable description.
+This react native module is intended to provide a beautifully animated product picture carousel with a swipeable description.
 
 <!-- ![Alt Text](./assets/react-native-dot-intro.gif) -->
 
