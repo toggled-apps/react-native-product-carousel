@@ -2,7 +2,7 @@
 
 This react native module is intended to provide a beautifully animated product picture carousel with a swipeable description.
 
-<!-- ![Alt Text](./assets/react-native-dot-intro.gif) -->
+![React Native Product Carousel](./assets/react-native-product-carousel.gif)
 
 ## Usage
 
@@ -13,7 +13,7 @@ or
 
 npm install @toggled-apps/react-native-product-carousel
 ```
-Install Gesture Handler and Reanimated v1, these are required for `@gorhom/bottom-sheet`:
+Install Gesture Handler and Reanimated v1, these are required for `@gorhom/bottom-sheet` [dependency](https://github.com/gorhom/react-native-bottom-sheet):
 
 ### For React Native
 ```
