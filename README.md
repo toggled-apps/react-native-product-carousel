@@ -1,6 +1,6 @@
 # React Native Product Carousel
 
-This react native module is intended to provide a beautifully animated product picture carousel with a swipeable description.
+This react native module is intended to provide a beautifully animated product picture carousel with a expandable description.
 
 ![React Native Product Carousel](./assets/react-native-product-carousel.gif)
 
@@ -63,16 +63,9 @@ export default function App() {
 ```
 
 ## Props
-
-  data,
-  dotColor = "#333",
-  dotSize = 6,
-  dotSpacing = 6,
-  indicatorColor = "#333",
-
 |Name|Type|Required|Default|Description|
 |---|---|---|---|---|
-|content|any|Required|None|Render view for product description.|
+|content|any|Required|None|Component to be rendered in the product description.|
 |data|array|Optional|800|An an array of urls of images for your carousel.|
 |dotoColor|string|Option|"#333"|Color of pagination dots.|
 |dotSize|number|Optional|6|Size of pagination dots.|
