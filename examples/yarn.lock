@@ -1348,9 +1348,11 @@
     wcwidth "^1.0.1"
 
 "@toggled-apps/react-native-product-carousel@../":
-  version "1.0.2"
+  version "1.0.1"
   dependencies:
     "@gorhom/bottom-sheet" "^2.0.0"
+    react-native-gesture-handler "~1.8.0"
+    react-native-reanimated "^1.13.2"
 
 "@types/hammerjs@^2.0.36":
   version "2.0.36"
