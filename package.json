@@ -1,6 +1,6 @@
 {
   "name": "@toggled-apps/react-native-product-carousel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beautifully animated product carousel.",
   "main": "index.js",
   "scripts": {
