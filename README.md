@@ -1,6 +1,6 @@
 # React Native Product Carousel
 
-This react native module is intended to provide a beautifully animated product picture carousel with an expandable description.
+This react native module is intended to provide a beautifully animated product carousel with an expandable bottom sheet.
 
 ![React Native Product Carousel](./assets/react-native-product-carousel.gif)
 

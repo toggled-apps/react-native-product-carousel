@@ -23,7 +23,6 @@ const ProductCarousel = ({
   dotSpacing = 6,
   indicatorColor = "#333",
 }: Props) => {
-
   const scrollY = React.useRef(new Animated.Value(0)).current;
   const translateY = Animated.divide(scrollY, ITEM_HEIGHT).interpolate({
     inputRange: [0, 1],
@@ -42,7 +41,7 @@ const ProductCarousel = ({
         <Animated.FlatList
           data={data}
           showsVerticalScrollIndicator={false}
-          keyExtractor={(_, index) => index.toString()}
+          keyExtractor={(_: any, index: number) => index.toString()}
           snapToInterval={ITEM_HEIGHT}
           decelerationRate="fast"
           bounces={false}
@@ -52,7 +51,7 @@ const ProductCarousel = ({
               useNativeDriver: true,
             }
           )}
-          renderItem={({ item }) => {
+          renderItem={({ item }: { item: string }) => {
             return (
               <Image
                 source={{ uri: item }}
@@ -64,7 +63,7 @@ const ProductCarousel = ({
         <View
           style={{ position: "absolute", bottom: ITEM_HEIGHT / 3, left: 20 }}
         >
-          {data.map((_, i) => {
+          {data.map((_: any, i: number) => {
             return (
               <View
                 key={i}
