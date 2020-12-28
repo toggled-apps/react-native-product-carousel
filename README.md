@@ -74,7 +74,11 @@ export default function App() {
 |indicatorColor|string|Optional|"#333"|Color of page indicator.|
 
 ## 🚀 Run the example
-The provided example uses [expo](https://expo.io/). Navigate to the "examples" directory and run:
+The provided example uses [expo](https://expo.io/). 
+
+Snack: https://expo.io/@toggled-apps/react-native-product-carousel
+
+Build locally: Navigate to the "examples" directory and run:
 
 - Install packages with `yarn` or `npm install`.
 - Run `yarn ios` or `yarn android` or `npm run ios` or `npm run android`.

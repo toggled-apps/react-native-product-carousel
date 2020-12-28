@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "examples",
-    "slug": "examples",
+    "name": "react-native-product-carousel",
+    "slug": "react-native-product-carousel",
+    "owner": "toggled-apps",
+    "description": "This react native module is intended to provide a beautifully animated product carousel with an expandable bottom sheet.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
