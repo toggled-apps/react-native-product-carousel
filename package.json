@@ -1,6 +1,6 @@
 {
   "name": "@toggled-apps/react-native-product-carousel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This react native module is intended to provide a beautifully animated product carousel with an expandable bottom sheet.",
   "main": "index.js",
   "scripts": {
@@ -39,9 +39,9 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@gorhom/bottom-sheet": "^2.0.0",
+    "@gorhom/bottom-sheet": "^3.0.1",
     "react-native-gesture-handler": "~1.8.0",
-    "react-native-reanimated": "^1.13.2"
+    "react-native-reanimated": "2.0.0-rc.0"
   },
   "directories": {
     "example": "examples"

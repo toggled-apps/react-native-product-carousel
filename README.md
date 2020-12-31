@@ -16,7 +16,7 @@ npm install @toggled-apps/react-native-product-carousel
 ## Dependencies
 This module imports Gesture Handler and Reanimated v1 as dependencies, these are required for `@gorhom/bottom-sheet` [dependency](https://github.com/gorhom/react-native-bottom-sheet). These may conflict with your own dependency versioning. You can follow these instructions to install them yourself:
 
-### For React Native
+### For React Native (Unmanaged)
 ```
 yarn add react-native-reanimated react-native-gesture-handler
 
@@ -27,12 +27,22 @@ npm install react-native-reanimated react-native-gesture-handler
 
 React Native Gesture Handler needs extra steps to finalize its installation, please follow their [installation instructions](https://github.com/software-mansion/react-native-gesture-handler).
 
-React Native Reanimated v1 needs extra steps to finalize its installation, please follow their [installation instructions](https://docs.swmansion.com/react-native-reanimated/docs/1.x.x/getting_started).
+React Native Reanimated v2 needs extra steps to finalize its installation, please follow their [installation instructions](https://docs.swmansion.com/react-native-reanimated/docs/installation/).
 
-### For Expo
+### For Expo (Managed)
 ```
 expo install react-native-gesture-handler
 yarn add react-native-reanimated
+```
+Add Reanimated's babel plugin to your babel.config.js:
+```
+  module.exports = {
+      ...
+      plugins: [
+          ...
+          'react-native-reanimated/plugin',
+      ],
+  };
 ```
 
 ## Example Usage
